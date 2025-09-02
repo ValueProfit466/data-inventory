@@ -1,0 +1,19 @@
+# config/inventory_config.yaml
+# Optional extension point (not strictly needed by the script) to document enums and meanings for onboarding.
+enums:
+  source_type (official/sector/commercial): ["official","sector","commercial"]
+  license (open/CC-BY/restricted/NDA): ["open","CC-BY","restricted","NDA"]
+  domain (economisch/vloot/operationeel/milieu/arbeidsmarkt/digitalisering): ["economisch","vloot","operationeel","milieu","arbeidsmarkt","digitalisering"]
+  geographic_coverage (BE/VL/WAL/BXL/EU/CCNR/Corridor): ["BE","VL","WAL","BXL","EU","CCNR","Corridor"]
+  update_frequency (realtime/daily/weekly/monthly/quarterly/annual/ad-hoc): ["realtime","daily","weekly","monthly","quarterly","annual","ad-hoc"]
+  data_status (Volledig/Moet aangevraagd/Ontbreekt/Moet gevalideerd): ["Volledig","Moet aangevraagd","Ontbreekt","Moet gevalideerd"]
+  privacy_sensitivity (low/medium/high): ["low","medium","high"]
+  contractual_requirements (NDA/DUA/MoU/licence): ["NDA","DUA","MoU","licence"]
+  priority (A/B/C): ["A","B","C"]
+quality:
+  scale: 0-3
+  rubric:
+    0: "unknown/poor"
+    1: "limited"
+    2: "good"
+    3: "excellent"
