@@ -1,0 +1,5 @@
+source_id	source_name	owner_org	contact_email	url_or_access_method	domain	dataset_title	geographic_coverage	update_frequency
+1	StatBel Transport	Federal Government	info@statbel.be	https://statbel.fgov.be	economisch	Belgian Transport Statistics	BE	monthly
+2	ITB Fleet Data	ITB Vlaanderen	data@itb.be	https://itb.vlaanderen/fleet	vloot	Inland Waterway Fleet Database	VL	daily
+3	Port of Antwerp	Port Authority	port@antwerpen.be	https://portofantwerp.com/api	operationeel	Port Traffic Data	VL	realtime
+4	Environmental Monitor	VMM	contact@vmm.be	https://vmm.be/water	milieu	Water Quality Metrics	VL	weekly
