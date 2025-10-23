@@ -1,0 +1,2 @@
+Source ID,Topic,Source Name,URL,Date Accessed,Data Years,Geographic Scope,File Location,Data Format,Key Variables,Data Quality,Limitations,Update Frequency,Contact Info,Notes
+EXAMPLE_001,Transport,Example Data Source,https://example.com/data,2025-10-23,2020-2023,BE,data/example.csv,CSV,"variable1, variable2, variable3",4 stars - Reliable with minor gaps,"Annual data only, no sub-regional breakdown",Annual,data@example.org,This is an example entry. Delete this row.
